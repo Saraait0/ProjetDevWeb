@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Quicksand:wght@300..700&family=Roboto+Slab&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+ }
+ body {
+    
+      font-family: "Bricolage Grotesque", sans-serif;
+      
+  }
+  header::before
+  {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    height:100%;
+    width: 100%;
+    background:rgb(0,0,0,0.2) ;
+    
+    
+  }
+  span.modi{
+    text-align: center;
+  } 
+  .co h1{
+    font-size:40px;
+    color: white;
+   
+  }
+
+ .food img {
+    width: 40px;
+    margin-left: 80px;
+    margin-top: 5px;
+    
+
+}
+.food {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration:none;
+    color: white;
+    
+}
+.food  ul {
+    margin-right: 100px;
+    
+    }
+    .food  ul li a {
+        padding: 24px 5px ;
+        color: white;
+        font-weight: 700;
+        
+    }
+   
+     .food ul li a:hover {
+        border-bottom: 2px solid #e4b95b;;
+        
+    }
+    header  *{
+        z-index: 1;
+    }
+    
+    
+   
+    header {
+        height: 100vh;
+        background: url(../image/louis-hansel-U6-KvV7HlMk-unsplash\ \(1\).jpg) no-repeat  center/cover;
+        position: relative;
+
+    }
+    .co{
+        display: flex;
+        flex-direction: column;
+       
+        justify-content: center;
+        align-items: center;
+        height: 75%;
+        }
+
+    
+    .co p{
+        margin: 20px 0px 40px 0px ;
+        color: white;
+        font-weight: 500;
+        padding-bottom: 5px;
+        text-align: center;
+        
+    }
+    
+    
+    .le {
+        color:#e4b95b;
+        
+    }
+    .btn {
+        display: inline-block;
+        padding: 15px 30px;
+        border: none;
+        border-radius: 15px;
+    }
+    .btn-primary{
+        color: white;
+        border: 1px solid white;
+    }
+    .btn-primary:hover ,
+    .btn-secondary:hover
+    { 
+    
+        background: #e4b95b;
+    }
+    /* main*/
+    .container {
+        max-width: 1100px;
+        margin: auto;
+        height: 100vh;
+       
+        
+      
+
+       }
+    .about {
+        height: 100vh;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        background: white;
+    }
+    .about .title p
+    {
+        text-align: center;
+        margin-bottom: 4rem;
+        
+    }
+    .about .title h2 {
+        font-size: 40px;
+        margin-bottom: 22px;
+        color: #383848;
+    }
+   
+    .about .title p{
+        font-size: 14px;
+        color: rgb(100, 97, 97);
+        font-weight: 400;
+       
+    }
+     .about-content {
+        display: flex;
+        justify-content: space-between;
+    }
+     .about-content img{
+        width: 400px;
+    }
+    .about-content p{
+        color:rgb(100, 97, 97) ;
+        margin-right: 7rem;
+        font-weight: 500;
+        line-height: 1.6;
+    
+    }
+    .btn-secondary{
+        color:white;
+        background: rgb(100, 97, 97);
+        margin-top: 2rem;
+
+          }
+          .Spécialités{
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+           background: url(../image/offer-background.jpg) center center/cover fixed;
+          }
+         .title h2
+         {
+
+            text-align: center;
+            margin-bottom: 4rem;
+            font-size: 30px;
+            margin-bottom: 20px;
+            color:#e4b95b;
+          
+            
+            }
+           .title p{
+                text-align: center;
+                color: aliceblue;
+               font-size: 500;
+               font-weight: 500;
+            }
+            .Spécialités-items{
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                text-align:center ;
+                color: azure;
+                
+                width: 1100px;
+                
+                
+               }
+               
+               .Spécialités-items img{
+                width: 230px;
+                height: 250px;
+                object-fit: cover;
+                border-radius: 50%;
+                padding: 15px;
+
+               }
+               .Spécialités-items p{
+                font-size: 14px;
+                padding: 25px 50px 15px 50px;
+                font-weight: 300;
+                margin-bottom: 15px;
+               }
+               .Spécialités-items h3:hover{
+                border-bottom: 2px solid #e4b95b;
+               }
+               .Spécialités-items span:hover{
+                border-bottom: 2px solid #e4b95b;
+               }
+               .Spécialités-items h3{
+                font-size: 25px;
+                margin: 15 0;
+               }
+               .Spécialités-items p span{
+                font-weight: 600;
+                 color:#e4b95b;
+               }
+               
+               /* event*/
+               .event{
+                height: 100vh;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                background: url(../image/photo_2024-04-26_13-35-03.jpg) center center/cover fixed ;
+                
+                
+
+               }
+               .event .title{
+                padding-top: 10px;
+                text-align: center;
+                margin-bottom: 4rem;
+                letter-spacing: 3px;
+               }
+               .event .title h2{
+                font-size: 40px;
+                margin-bottom: 20px;
+                color: rgb(255,255,255);
+
+               }
+               .event .title p{
+                font-size: 20px;
+                
+                font-weight: 300;
+                margin-bottom: 15px;
+               
+                color: rgb(255,255,255);
+                
+
+                }
+
+               .event-items{
+                display:flex;
+                justify-content: space-between;
+                justify-items: center;
+                text-align: center;
+                color: rgb(255,255,255);
+               width: 1100px;
+              
+
+               }
+               .event-items img{
+                width:100px;
+                
+               }
+               .event-items h3{
+                font-size: 25px;
+                margin: 15px 0;
+               }
+               .event-items P{
+                font-size: 14px;
+                padding:0 20px;
+                font-weight: 300;
+               }
+                
+
+               .event::before{
+                content: "";
+               position: absolute;
+               top: 0;
+               left: 0;
+               width: 100%;
+               height: 100%;
+               background-color: rgba(0, 0, 0, 0.0);
+               
+               }
+               .event *{
+                z-index: 2;
+               }
+               .event  h3:hover{
+                border-bottom: 2px solid rgb(218, 225, 157);
+
+               }
+               .info .info-content  .info-contact {
+                width: 50%;
+
+
+               }
+               .info .info-content  .info-contact div{
+                margin: 20px 0;
+                line-height: 1.7;
+               }
+               .info .info-content  .info-contact h3{
+                font-size: 28px;
+                color:#383848;
+                margin: 10px;
+
+               }
+               .info .info-content  .info-contact p{
+                color: #9a9a9a;
+               }
+               .info .info-content .info-contact i{
+                color:#e4b95b;
+                margin-right: 5px;
+               }
+               .info .container{
+                max-width: 900px;
+               }
+
+               .info-content{
+                display: flex;
+                
+
+
+               }
+               .map-container {
+                float: right;
+                margin-left: 20px; /* Pour espacer un peu la carte des informations d'adresse */
+                margin-top: 18px;
+                width: 20px;
+                margin-right: 50px;
+                
+            }
+                      
+            .footer{
+                background-color: #383848;
+                text-align: center;
+                color: aliceblue;
+                padding: 15px 0;
+                font-size: 14px;
+            }
+           
